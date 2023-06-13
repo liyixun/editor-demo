@@ -9,11 +9,11 @@ export const routes = [
     name: "wangEditor",
     component: () => import("@/views/wangEditor.vue"),
   },
-  {
-    path: "/wangEditorPreview",
-    name: "wangEditorPreview",
-    component: () => import("@/views/wangEditorV2.vue"),
-  },
+  // {
+  //   path: "/wangEditorPreview",
+  //   name: "wangEditorPreview",
+  //   component: () => import("@/views/wangEditorV2.vue"),
+  // },
   {
     path: "/mavonEditor",
     name: "mavonEditor",
