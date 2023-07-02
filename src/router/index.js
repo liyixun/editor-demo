@@ -19,6 +19,11 @@ export const routes = [
     name: "mavonEditor",
     component: () => import("@/views/mavonEditorDemo.vue"),
   },
+  {
+    path: "quillEditor",
+    name: "quillEditor",
+    component: () => import("@/views/quillEditor.vue"),
+  },
 ];
 
 export function initRouter() {
